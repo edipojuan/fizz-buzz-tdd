@@ -11,13 +11,17 @@ import { expect } from 'chai';
 import fizzBuzz from '../src/main';
 
 describe('FizzBuzz', () => {
-  it('deve retornar `Fizz` quando o número informado for multiplo de 3', () => {
+  it('deve retornar `Fizz` quando o número informado for múltiplo de 3', () => {
     expect(fizzBuzz(3)).to.be.equal('Fizz');
     expect(fizzBuzz(6)).to.be.equal('Fizz');
   });
 
-  it('deve retornar `Buzz` quando o número informado for multiplo de 5', () => {
+  it('deve retornar `Buzz` quando o número informado for múltiplo de 5', () => {
     expect(fizzBuzz(5)).to.be.equal('Buzz');
     expect(fizzBuzz(10)).to.be.equal('Buzz');
+  });
+
+  it('deve retornar `FizzBuzz` quando o número informado for múltiplo de 3 e 5', () => {
+    expect(fizzBuzz(15)).to.be.equal('FizzBuzz');
   });
 });
