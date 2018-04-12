@@ -8,6 +8,7 @@ Deve ser escrito uma lib que receba um número e:
 */
 
 import { expect } from 'chai';
+import fizzBuzz from '../src/main';
 
 describe('FizzBuzz', () => {
   it('deve retornar `Fizz` quando o número informado for multiplo de 3', () => {
