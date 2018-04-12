@@ -18,5 +18,6 @@ describe('FizzBuzz', () => {
 
   it('deve retornar `Buzz` quando o número informado for multiplo de 5', () => {
     expect(fizzBuzz(5)).to.be.equal('Buzz');
+    expect(fizzBuzz(10)).to.be.equal('Buzz');
   });
 });
