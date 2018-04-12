@@ -25,4 +25,8 @@ describe('FizzBuzz', () => {
     expect(fizzBuzz(15)).to.be.equal('FizzBuzz');
     expect(fizzBuzz(45)).to.be.equal('FizzBuzz');
   });
+
+  it('deve retornar o número informado quando o mesmo não for múltiplo de 3 e nem 5', () => {
+    expect(fizzBuzz(7)).to.be.equal(7);
+  });
 });
