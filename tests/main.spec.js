@@ -23,5 +23,6 @@ describe('FizzBuzz', () => {
 
   it('deve retornar `FizzBuzz` quando o número informado for múltiplo de 3 e 5', () => {
     expect(fizzBuzz(15)).to.be.equal('FizzBuzz');
+    expect(fizzBuzz(45)).to.be.equal('FizzBuzz');
   });
 });
